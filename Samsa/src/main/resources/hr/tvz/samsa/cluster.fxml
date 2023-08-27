@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.tvz.samsa.controllers.ClusterController">
+<fx:include source="menu.fxml" />
+   <Circle fx:id="c11" fill="DODGERBLUE" layoutX="1100.0" layoutY="398.0" radius="53.0" stroke="BLACK" strokeType="INSIDE" />
+   <Circle fx:id="c10" fill="DODGERBLUE" layoutX="900.0" layoutY="398.0" radius="53.0" stroke="BLACK" strokeType="INSIDE" />
+   <Circle fx:id="c9" fill="DODGERBLUE" layoutX="700.0" layoutY="398.0" radius="53.0" stroke="BLACK" strokeType="INSIDE" />
+   <Circle fx:id="c8" fill="DODGERBLUE" layoutX="500.0" layoutY="398.0" radius="53.0" stroke="BLACK" strokeType="INSIDE" />
+   <Circle fx:id="c7" fill="DODGERBLUE" layoutX="300.0" layoutY="398.0" radius="53.0" stroke="BLACK" strokeType="INSIDE" />
+   <Circle fx:id="c6" fill="DODGERBLUE" layoutX="100.0" layoutY="398.0" radius="53.0" stroke="BLACK" strokeType="INSIDE" />
+   <Circle fx:id="c5" fill="DODGERBLUE" layoutX="1100.0" layoutY="165.0" radius="53.0" stroke="BLACK" strokeType="INSIDE" />
+   <Circle fx:id="c4" fill="DODGERBLUE" layoutX="900.0" layoutY="165.0" radius="53.0" stroke="BLACK" strokeType="INSIDE" />
+   <Circle fx:id="c3" fill="DODGERBLUE" layoutX="700.0" layoutY="165.0" radius="53.0" stroke="BLACK" strokeType="INSIDE" />
+   <Circle fx:id="c2" fill="DODGERBLUE" layoutX="500.0" layoutY="165.0" radius="53.0" stroke="BLACK" strokeType="INSIDE" />
+   <Circle fx:id="c1" fill="DODGERBLUE" layoutX="300.0" layoutY="165.0" radius="53.0" stroke="BLACK" strokeType="INSIDE" />
+   <Circle fx:id="c0" fill="DODGERBLUE" layoutX="100.0" layoutY="165.0" radius="53.0" stroke="BLACK" strokeType="INSIDE" />
+   <Label fx:id="l0" layoutY="235.0" prefHeight="20.0" prefWidth="200.0" text="Host:Port" textAlignment="CENTER" wrapText="true">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Label>
+   <Label fx:id="l11" layoutX="1000.0" layoutY="471.0" prefHeight="16.0" prefWidth="200.0" text="Host:Port" textAlignment="CENTER" wrapText="true">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Label>
+   <Label fx:id="l10" layoutX="800.0" layoutY="471.0" prefHeight="16.0" prefWidth="200.0" text="Host:Port" textAlignment="CENTER" wrapText="true">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Label>
+   <Label fx:id="l9" layoutX="600.0" layoutY="471.0" prefHeight="16.0" prefWidth="200.0" text="Host:Port" textAlignment="CENTER" wrapText="true">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Label>
+   <Label fx:id="l8" layoutX="400.0" layoutY="471.0" prefHeight="16.0" prefWidth="200.0" text="Host:Port" textAlignment="CENTER" wrapText="true">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Label>
+   <Label fx:id="l7" layoutX="200.0" layoutY="471.0" prefHeight="16.0" prefWidth="200.0" text="Host:Port" textAlignment="CENTER" wrapText="true">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Label>
+   <Label fx:id="l6" layoutY="471.0" prefHeight="16.0" prefWidth="200.0" text="Host:Port" textAlignment="CENTER" wrapText="true">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Label>
+   <Label fx:id="l5" layoutX="1000.0" layoutY="235.0" prefHeight="16.0" prefWidth="200.0" text="Host:Port" textAlignment="CENTER" wrapText="true">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Label>
+   <Label fx:id="l4" layoutX="800.0" layoutY="235.0" prefHeight="16.0" prefWidth="200.0" text="Host:Port" textAlignment="CENTER" wrapText="true">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Label>
+   <Label fx:id="l3" layoutX="600.0" layoutY="235.0" prefHeight="16.0" prefWidth="200.0" text="Host:Port" textAlignment="CENTER" wrapText="true">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Label>
+   <Label fx:id="l2" layoutX="400.0" layoutY="235.0" prefHeight="16.0" prefWidth="200.0" text="Host:Port" textAlignment="CENTER" wrapText="true">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Label>
+   <Label fx:id="l1" layoutX="200.0" layoutY="235.0" prefHeight="16.0" prefWidth="200.0" text="Host:Port" textAlignment="CENTER" wrapText="true">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Label>
+   <Circle fx:id="brokerColor" fill="DODGERBLUE" layoutX="998.0" layoutY="613.0" radius="14.0" stroke="BLACK" strokeType="INSIDE" />
+   <Circle fx:id="controllerColor" fill="DODGERBLUE" layoutX="998.0" layoutY="656.0" radius="14.0" stroke="BLACK" strokeType="INSIDE" />
+   <Label layoutX="1025.0" layoutY="603.0" prefHeight="20.0" prefWidth="166.0" text="Active Broker" textAlignment="CENTER" wrapText="true">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Label>
+   <Label layoutX="1025.0" layoutY="646.0" prefHeight="20.0" prefWidth="166.0" text="Current Controller" textAlignment="CENTER" wrapText="true">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Label>
+   <Label fx:id="i0" layoutX="81.0" layoutY="155.0" prefHeight="20.0" prefWidth="38.0" text="id" textAlignment="CENTER" wrapText="true">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Label>
+   <Label fx:id="i11" layoutX="1081.0" layoutY="388.0" prefHeight="20.0" prefWidth="38.0" text="id" textAlignment="CENTER" wrapText="true">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Label>
+   <Label fx:id="i10" layoutX="881.0" layoutY="388.0" prefHeight="20.0" prefWidth="38.0" text="id" textAlignment="CENTER" wrapText="true">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Label>
+   <Label fx:id="i9" layoutX="681.0" layoutY="388.0" prefHeight="20.0" prefWidth="38.0" text="id" textAlignment="CENTER" wrapText="true">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Label>
+   <Label fx:id="i8" layoutX="481.0" layoutY="388.0" prefHeight="20.0" prefWidth="38.0" text="id" textAlignment="CENTER" wrapText="true">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Label>
+   <Label fx:id="i7" layoutX="281.0" layoutY="388.0" prefHeight="20.0" prefWidth="38.0" text="id" textAlignment="CENTER" wrapText="true">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Label>
+   <Label fx:id="i6" layoutX="81.0" layoutY="388.0" prefHeight="20.0" prefWidth="38.0" text="id" textAlignment="CENTER" wrapText="true">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Label>
+   <Label fx:id="i5" layoutX="1081.0" layoutY="155.0" prefHeight="20.0" prefWidth="38.0" text="id" textAlignment="CENTER" wrapText="true">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Label>
+   <Label fx:id="i4" layoutX="881.0" layoutY="155.0" prefHeight="20.0" prefWidth="38.0" text="id" textAlignment="CENTER" wrapText="true">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Label>
+   <Label fx:id="i3" layoutX="681.0" layoutY="155.0" prefHeight="20.0" prefWidth="38.0" text="id" textAlignment="CENTER" wrapText="true">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Label>
+   <Label fx:id="i2" layoutX="481.0" layoutY="155.0" prefHeight="20.0" prefWidth="38.0" text="id" textAlignment="CENTER" wrapText="true">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Label>
+   <Label fx:id="i1" layoutX="281.0" layoutY="155.0" prefHeight="20.0" prefWidth="38.0" text="id" textAlignment="CENTER" wrapText="true">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Label>
+   <Label fx:id="clusterName" layoutX="353.0" layoutY="41.0" prefHeight="30.0" prefWidth="494.0" text="Label">
+      <font>
+         <Font size="24.0" />
+      </font>
+   </Label>
+    
+</AnchorPane>

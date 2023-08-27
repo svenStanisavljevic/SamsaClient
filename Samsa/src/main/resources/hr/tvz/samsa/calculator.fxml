@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.tvz.samsa.controllers.CalculatorController">
+   <children>
+      <TextField fx:id="timeQuantity" layoutX="14.0" layoutY="100.0" prefHeight="30.0" prefWidth="235.0" promptText="How much" />
+      <Line endX="377.0" layoutX="123.0" layoutY="350.0" startX="-123.0" />
+      <Label layoutX="158.0" layoutY="25.0" text="Time calculator">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="162.0" layoutY="150.0" mnemonicParsing="false" onAction="#timeCalculate" prefHeight="46.0" prefWidth="176.0" text="Calculate">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <ChoiceBox fx:id="timeUnit" layoutX="301.0" layoutY="100.0" prefHeight="30.0" prefWidth="186.0" />
+      <Label layoutX="150.0" layoutY="375.0" text="Space calculator">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="time" layoutY="220.0" prefHeight="30.0" prefWidth="500.0" text="Time calculator">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="162.0" layoutY="500.0" mnemonicParsing="false" onAction="#spaceCalculate" prefHeight="46.0" prefWidth="176.0" text="Calculate">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="162.0" layoutY="620.0" mnemonicParsing="false" onAction="#spaceCopy" prefHeight="46.0" prefWidth="176.0" text="Copy">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="162.0" layoutY="270.0" mnemonicParsing="false" onAction="#timeCopy" prefHeight="46.0" prefWidth="176.0" text="Copy">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <TextField fx:id="spaceQuantity" layoutX="14.0" layoutY="450.0" prefHeight="30.0" prefWidth="235.0" promptText="How much" />
+      <ChoiceBox fx:id="spaceUnit" layoutX="301.0" layoutY="450.0" prefHeight="30.0" prefWidth="186.0" />
+      <Label fx:id="space" layoutY="570.0" prefHeight="30.0" prefWidth="500.0" text="Time calculator">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

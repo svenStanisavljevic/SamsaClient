@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="700.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.tvz.samsa.controllers.ConsumeController">
+   <children>
+      <TableView fx:id="table" layoutY="106.0" prefHeight="593.0" prefWidth="500.0">
+        <columns>
+          <TableColumn fx:id="value" prefWidth="373.0" text="Value" />
+          <TableColumn fx:id="offset" prefWidth="126.0" text="Offset" />
+        </columns>
+      </TableView>
+      <Label fx:id="topicName" layoutY="47.0" prefHeight="30.0" prefWidth="500.0" text="Label">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

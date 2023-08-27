@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+
+<MenuBar xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.tvz.samsa.controllers.MenuController">
+  <menus>
+    <Menu fx:id="topics" mnemonicParsing="false" onAction="#launchTopics" text="Menu">
+         <items>
+            <MenuItem mnemonicParsing="false" onAction="#launchTopics" text="Topics" />
+            <MenuItem mnemonicParsing="false" onAction="#launchConsumerGroups" text="Consumer groups" />
+            <MenuItem mnemonicParsing="false" onAction="#launchClusters" text="Cluster" />
+         </items></Menu>
+  </menus>
+</MenuBar>
